@@ -1,0 +1,47 @@
+.container {
+  border: 1px solid rgb(243, 236, 236);
+  min-height: 300px;
+}
+
+.animation-container {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  text-align: center;
+  padding-top: 35px;
+  animation-name: gradient;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+@keyframes gradient {
+  0% {
+    background-color: #850e35;
+    left: 0;
+    top: 0;
+  }
+  25% {
+    background-color: #ee6983;
+    left: 81%;
+    top: 0;
+  }
+  50% {
+    top: 190px;
+    left: 81%;
+    background-color: #ffc4c4;
+  }
+  75% {
+    top: 190px;
+    left: 0;
+    background-color: #f675a8;
+  }
+
+  100% {
+    top: 0;
+    left: 0;
+    background-color: #f09cbd;
+  }
+}
