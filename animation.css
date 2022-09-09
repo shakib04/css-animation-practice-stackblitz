@@ -18,6 +18,10 @@
   position: relative;
 }
 
+.animation-container:hover {
+  animation-play-state: paused;
+}
+
 @keyframes gradient {
   0% {
     background-color: #850e35;
@@ -32,6 +36,7 @@
     top: 0;
   }
   50% {
+    animation-timing-function: ease-in-out;
     top: 190px;
     left: 81%;
     background-color: #ffc4c4;
