@@ -14,17 +14,20 @@
   animation-duration: 10s;
   animation-delay: 1s;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
   position: relative;
 }
 
 @keyframes gradient {
   0% {
     background-color: #850e35;
+    animation-timing-function: linear;
     left: 0;
     top: 0;
   }
   25% {
     background-color: #ee6983;
+    animation-timing-function: ease-in;
     left: 81%;
     top: 0;
   }
