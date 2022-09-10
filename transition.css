@@ -1,0 +1,20 @@
+.container {
+  border: 1px solid rgb(238, 230, 230);
+  min-height: 300px;
+}
+
+.transition-container {
+  border: 1px solid rgb(238, 230, 230);
+  font-size: 15px;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  text-align: center;
+  padding-top: 67.5px;
+  transition: all 3s;
+}
+
+.transition-container:hover{
+  width: 300px;
+  height: 200px;
+}
